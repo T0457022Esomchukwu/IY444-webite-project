@@ -1,0 +1,111 @@
+*{margin:0;
+ padding:0;
+box-sizing:border-box;
+font-family: sans-serif;
+}
+
+.page{width:930px;
+margin:auto;
+background-color:white;
+padding:0px;
+box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+border-radius:10px;
+margin-top:40px;
+min-height: 1000px;}
+
+
+
+
+.header{text-align:center;
+    background-color: green;
+    padding:20px;
+    color:white;
+    height:125px;
+    padding-top:45px;
+    border-radius:10px ;
+    
+    
+}
+.nav{background-color:green;
+height:40px;
+width:310px;
+margin-left:310px;
+border-radius:0px 0px 10px 10px;
+
+}
+
+.nav ul{
+    list-style-type:none;
+    padding:0px;
+    
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    display:block;
+    text-align:center;
+}
+.nav a:hover{
+    background-color: #006400;
+    border-radius: 10px;
+    
+}
+.nav li{ float:left;
+width:103px;}
+
+.intro{padding:70px;
+height:250px;
+font-size:17px;
+}
+
+.search{
+    margin-top: 70px;
+    width:max-content;
+    display:flex;
+    align-items:center;
+    padding:5px;
+    border-radius:20px;
+    background:  green;
+    height:35px;
+    transition: background 0.2s;
+
+}
+.search:focus-within{
+    box-shadow:0 0 2px lightgreen
+}
+.search-input{ font-size:15px;
+    color:black;
+    margin:14px;  
+    padding:0px; 
+    outline:none;
+    border:none;
+    background:transparent;  
+    width:450px  ;        
+       
+}
+.search-input::placeholder,.search-icon{ color:white;}
+
+.dishes{display:flex;
+flex-direction: row;
+justify-content:space-between;
+margin-top: 100px;}
+
+.dish{
+    font-size:15px;
+    text-align:center;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    padding:20px;
+    border-radius:10px;
+    background-color:#F5F5F5;
+    
+}
+.name{font-weight:bold;
+}
+
+
+
+
+
+.dish:hover{border:3px solid green;}
