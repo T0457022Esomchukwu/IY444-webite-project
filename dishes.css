@@ -1,0 +1,67 @@
+.page_image{
+    margin:auto;
+    margin-top: 60px;
+    text-align:center;
+    background-color:#4caf50;
+    width:900px;
+    height:690px;
+    padding-top:50px;
+    border-radius: 50px;
+    
+ }
+
+.page_image img{border-radius: 20px;
+    box-shadow:0 0 4.5px lightgreen;
+} 
+.page_image h2 {padding-top:50px;
+    }
+
+
+.details{margin:90px 100px;
+    border-radius: 20px;
+    height:110px;
+    padding:15px 30px;
+    background-color:#4caf50;
+    width:300px;
+    
+}   
+
+.ingredients{
+    margin:0px 100px;
+    background-color:#4caf50;
+    border-radius: 20px;
+    height:640px;
+    padding:30px 30px;
+    width:690px;
+}
+
+.instructions{margin:50px 100px;}
+
+
+.instructions img{height:300px;
+width:500px;
+margin: 20px 300px 40px;
+background-color:#4caf50;
+    border-radius: 20px;
+
+}
+
+.instructions #one,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen{background-color:#4caf50;
+    border-radius: 20px;
+height:60px;
+padding:15px 30px;
+list-style-position: inside;}
+
+.instructions #two{background-color:#4caf50;
+    border-radius: 20px;
+height:100px;
+padding:15px 30px;
+list-style-position: inside;}
+
+
+.details li{margin-bottom:12px;}
+
+.ingredients li{margin-bottom:12px;}
+
+.instructions li{margin-bottom:10px;}
+
