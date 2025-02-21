@@ -1,3 +1,5 @@
+
+/*This is for the picture and name of a dish's webpage*/
 .page_image{
     margin:auto;
     margin-top: 60px;
@@ -17,6 +19,8 @@
     }
 
 
+
+/*This is for each dishes details */
 .details{margin:90px 100px;
     border-radius: 20px;
     height:110px;
@@ -26,15 +30,21 @@
     
 }   
 
+/*This is specifically for ingredients in the fried rice webpage*/
 .ingredients{
     margin:0px 100px;
     background-color:#4caf50;
+    
     border-radius: 20px;
-    height:640px;
+    height:795px;
     padding:30px 30px;
     width:690px;
 }
 
+
+
+
+/*This is for each dishes instructions and images alongside the instructions*/
 .instructions{margin:50px 100px;}
 
 
@@ -46,12 +56,21 @@ background-color:#4caf50;
 
 }
 
-.instructions #one,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen{background-color:#4caf50;
+.instructions li{background-color:#4caf50;
     border-radius: 20px;
 height:60px;
 padding:15px 30px;
-list-style-position: inside;}
+list-style-position: inside;
+}
+.details li{margin-bottom:12px;}
 
+.ingredients li{margin-bottom:20px;}
+
+.instructions li{margin-bottom:15px;}
+
+
+
+/*This is specifically for instruction two in the Fried Rice webpage*/
 .instructions #two{background-color:#4caf50;
     border-radius: 20px;
 height:100px;
@@ -59,9 +78,45 @@ padding:15px 30px;
 list-style-position: inside;}
 
 
-.details li{margin-bottom:12px;}
 
-.ingredients li{margin-bottom:12px;}
 
-.instructions li{margin-bottom:10px;}
 
+
+/*This is specifically for ingredients in the Egg sauce web page*/
+.ingredients_1{
+    margin:0px 100px;
+    background-color:#4caf50;
+    border-radius: 20px;
+    height:430px;
+    padding:30px 30px;
+    width:690px;
+}
+
+
+.ingredients_1 li{margin-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+/*This is specifically for ingredients in the pancake and corned beef sauce web page */
+
+.ingredients_2{
+    margin:0px 100px;
+    background-color:#4caf50;
+    border-radius: 20px;
+    height:670px;
+    padding:30px 30px;
+    width:690px;
+}
+
+    
+
+
+.ingredients_2 li{margin-bottom:20px;}
