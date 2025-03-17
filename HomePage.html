@@ -33,7 +33,9 @@
         </div>
     
         <div class="intro">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non velit eius odit saepe autem repudiandae cupiditate, cum, aliquam eaque incidunt ipsum fugiat voluptas eum fuga earum aliquid qui voluptatum illo! COME BACK AND CHANGE THIS!!!!
+            <p>Welcome to Nigerian Eats with Esom.
+                My aim is to take a culinary journey to West Africa and bring delicious Nigerian flavours straight to your kitchen . This website features treasured family recipes combining traditional ingredients with modern cooking techniques to create simple and quick everyday dishes for people on the go. 
+                From Nigerian students in the diaspora looking for that hit of nostalgia, to the average joe expanding his palette,this is the best place to be.
         
         </p>    
         </div>
@@ -94,29 +96,6 @@
 
 </div>
 
-<script type="text/javascript">
-    /*(ChatGpt,2025)*/
-    function search() {
-    let filter = document.querySelector('.search-input').value.toUpperCase(); // Get input value
-    let items = document.querySelectorAll('.dish'); // Get all dish elements
-    
-    items.forEach(item => {
-        let nameElement = item.querySelector('.name'); // Get the dish name element
-        if (nameElement) {
-            let value = nameElement.textContent.toUpperCase();
-            if (value.indexOf(filter) > -1) {
-                item.style.display = ""; // Show matching items
-            } else {
-                item.style.display = "none"; // Hide non-matching items
-            }
-        }
-    });
-}
-
-// Add event listener to the search input
-document.querySelector('.search-input').addEventListener('input', search);
-
-    
-    </script>
+<script src="script.js"></script> 
 </body>
 </html>

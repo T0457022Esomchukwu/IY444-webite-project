@@ -20,10 +20,17 @@ Report 11/03/2025 (V1.4)
 1.Accordions have been implemented to each pages steps
 2.Search bar has functionality
 
+Report 17/03/205(V1.5)
+1.Videos added
+
 
 
 
 References for the code:
+
+Bro Code (21 September,2023). How to create a CSS navigation bar in 6 minutes! 🧭 
+. [YouTube video]. Retrieved from: https://youtu.be/f3uCSh6LIY0  [Accessed 16 February 2025].
+
 Tahmid Ahmed. (2021, May 7). Animated Gradient Background with Pure CSS, HTML & CSS Tutorials. [YouTube video]. Retrieved from: https://youtu.be/LqRfQVcn3FY  [Accessed 15 February 2025].
 decode. (2023, October 3). Creating a Stylish Search Bar for Your Website, HTML & CSS Tutorial. [YouTube video]. Retrieved from:  https://youtu.be/f6ocDCkCmhM?list=LL  [Accessed 15 February 2025].
 
@@ -37,9 +44,10 @@ GreatStack. (2023, December 28). Create Working Contact Form Using HTML & CSS. [
 
 Web3Forms. (n.d.). Contact Forms for Modern Websites. Retrieved from:   https://web3forms.com/   [Accessed 20 February 2025].
 
-GreatStack.(2022). How To Make An Accordion Using HTML And CSS | Collapsible Content On Website.  [YouTube video]. Retrieved from:  https://youtu.be/fSkhTd4rpDo?list=LL  [Accessed 11 March 2025].
+GreatStack.(2022,October 18). How To Make An Accordion Using HTML And CSS | Collapsible Content On Website.  [YouTube video]. Retrieved from:  https://youtu.be/fSkhTd4rpDo?list=LL  [Accessed 11 March 2025].
 
 ChatGPT. (2025).Functionality for the search bar to search for dishes in the website[Unpublished software script].OpenAI.Prompt:Please make my search bar work.
+
 
 
 
