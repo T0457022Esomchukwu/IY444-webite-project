@@ -13,6 +13,7 @@
 <body>
     <!--This is a div for the content in the webpage  -->
 <div class="page" >
+    <!--(Bro Code,2023)-->
     <nav class="nav"><ul><!--This is the navigation bar -->
 
         <li><a href = "HomePage.html"> Home</a></li>
@@ -22,7 +23,6 @@
 
 <!--(GreatStack,2023)-->
 <div class="contact">
-
     <!--(Web3Forms,n.d)-->
     <form action="https://api.web3forms.com/submit" method="POST" class="contact_left"><!--This send the completed for to web3forms-->
         <h1>Let's Talk</h1>
@@ -31,9 +31,11 @@
         <!--(Web3Forms,n.d)-->
         <input type="hidden" name="access_key" value="53468f6e-dc6e-4ca0-b679-7af88b546029">  <!--Web3forms uses this access key to verify the form-->
         <input type="text" name ="name" placeholder="Your Name..." class="contact_inputs" required>
-        <input type="text" name ="email address" placeholder="Your Email address..." class="contact_inputs" required>
+        <!--(Greatstack,2022)-->
+        <input type="email" name ="email address" placeholder="Your Email address..." class="contact_inputs" spellcheck="false" id="email-field" required onkeyup="validateEmail()" >
+        <span id="email-error"></span>
         <textarea name="message" placeholder="Your Message..." class="contact_inputs" required></textarea>
-        <button type ="sumbit">Submit</button>
+        <button type ="submit">Submit</button>
     </form>
     <div class="contact-right"></div>
 </div>
@@ -48,6 +50,21 @@
     
     
 </div>
+<script>
+    //(Greatstack,2022)
+    var emailField=document.getElementById("email-field");
+    var emailError=document.getElementById("email-error"); 
+    function validateEmail(){
 
+        if (!emailField.value.match(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/)){
+            emailError.innerHTML="Please enter a valid email";
+            return false;
+
+        }
+        emailError.innerHTML="";    
+        return true;          
+        
+    }
+</script>
 </body>
 </html>
