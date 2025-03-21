@@ -13,13 +13,11 @@
 
 
 /*This is so that all the settings apply to every page div */
-.page{width:1300px;
+.page{width:90%;
 margin:auto;
 margin-top:30px;
-min-height: fit-content;
-
-
 }
+
 
 
 
@@ -31,6 +29,7 @@ min-height: fit-content;
 body{ 
     
     width:100%;
+    min-height:100vh;
     background-image:linear-gradient(225deg,#FFFFFF, #D7E8D1, #A3C89B, #65A665);
     background-size:250% 250%;
 animation:color 15s ease-in-out infinite;
@@ -49,32 +48,31 @@ animation:color 15s ease-in-out infinite;
 
 
 /*This is for the navigation bar*/
+/*(Bro Code,2023)*/
 .nav{
     background-color:#4caf50;
     padding:10px;
-    
-    padding: 18px 500px 15px 550px;
+    text-align:center;
     height:55px;
     border-radius:10px;
-    box-shadow:0 0 1px lightgreen;
     
     
 }
-
+                         
 .nav ul{
     list-style-type:none;
-    padding:0px;
-    width:230px;}
+    display:flex;
+    justify-content: center;
+    padding-top:7px;
+}
 
 
 .nav a{color :white;
 text-decoration:none;
 padding:11px;
-text-align:center;
 }
 
-.nav li { float:left;
-}
+
 
 .nav a:hover{
     background-color: #006400;
@@ -83,22 +81,29 @@ text-align:center;
 
 
 
+
 /*This is for the heading or title of the webpage */
 .header h1{
     color:#4caf50;
-    padding: 100px 400px 0px 440px;
-
+   margin-top:100px;
 text-align:center;
 
 
 }
-.intro p{color:#4caf50;}
+.intro p{color:white;
+}
 
 
 /*This is for the introduction message for the website*/
 .intro{
 text-align:center;
-padding:50px 180px 0px;}
+padding:35px;
+background-color: #4caf50;
+max-width:900px;
+margin:60px auto;
+border-radius:30px;
+width:90%;
+}
 
 
 
@@ -107,7 +112,7 @@ padding:50px 180px 0px;}
 
 /*(decode,2023)*/
 .search{
-    margin: 70px 475px 0px;
+    margin: 70px auto;
     width:max-content;
     display:flex;
     align-items:center;
@@ -162,11 +167,13 @@ html::-webkit-scrollbar-track{background-color:#4caf50;}
     flex-wrap:wrap;
     flex-direction: row;
     justify-content:space-between;
-    margin:auto;
-    margin-top:110px ;
+    margin:110px auto;
+    
+    max-width:900px;
+    width:90%;
     
     img{border-radius: 20px;}
-    width:850px;
+    
     
     
 }
@@ -199,9 +206,6 @@ html::-webkit-scrollbar-track{background-color:#4caf50;}
 .dishes img{width :215px;
      height:150px;}
 
-
-
-/*This is for the breadcrums */
 
 
 
@@ -242,7 +246,7 @@ margin:10px 0px;}
 
 /*(GreatStack,2023)-*/
 .contact{
-    height :900px; 
+    
     margin:170px 50px;
 
 }
@@ -271,7 +275,7 @@ color:#4caf50;}
 
 
 .contact_inputs{background-color: #4caf50;
-    width:300px;
+    max-width:300px;
     height:50px;
     border:none;
     outline:none;
@@ -283,7 +287,8 @@ color:#4caf50;}
 
 .contact_left textarea{height:200px;
     padding:15px 25px;
-width:450px;
+max-width:450px;
+
 
 }
 .contact_left button{

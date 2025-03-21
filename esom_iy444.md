@@ -28,6 +28,9 @@ Report 18/03/2025(V1.6)
 2.Google form added for quizzes
 3.Breadcrumbs deleted
 
+Report 21/03/2025(V1.7)
+1.Added header and main tags to all pages
+2.Made the homepage responsive
 
 
 References for the code:
@@ -51,7 +54,129 @@ Web3Forms. (n.d.). Contact Forms for Modern Websites. Retrieved from:   https://
 
 GreatStack.(2022,October 18). How To Make An Accordion Using HTML And CSS | Collapsible Content On Website.  [YouTube video]. Retrieved from:  https://youtu.be/fSkhTd4rpDo?list=LL  [Accessed 11 March 2025].
 
-ChatGPT. (2025).Functionality for the search bar to search for dishes in the website[Unpublished software script].OpenAI.Prompt:Please make my search bar work.
+ChatGPT. (2025).Functionality for the search bar to search for dishes in the website[Unpublished software script].OpenAI.
+Prompt:<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Nigerian Eats by Esom</title>
+    <link rel="stylesheet" href="homepage.css">
+
+
+    <!--This for the search Image gotten from google-->
+
+    <!-- (Google,n.d)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+   
+</head>
+
+
+
+<body>
+    <!--This is a div for the content in the webpage  -->
+<div class="page" >
+    <nav class="nav"><ul><!--This is the navigation bar -->
+
+        <li><a href = "HomePage.html"> Home</a></li>
+        <li><a href = "About.html"> About</a></li>
+        <li><a href = "Contact.html"> Contact Us</a></li>
+    </ul></nav> 
+
+    <div class="header" >
+        <header>
+        <h1>NIGERIAN EATS BY ESOM</h1>
+        </header>
+        </div>
+    
+        <div class="intro">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non velit eius odit saepe autem repudiandae cupiditate, cum, aliquam eaque incidunt ipsum fugiat voluptas eum fuga earum aliquid qui voluptatum illo! COME BACK AND CHANGE THIS!!!!
+        
+        </p>    
+        </div>
+    
+     <!--(decode,2023)-->
+    <form>
+        <div class="search"><!--This is the search bar-->
+            <span class=" search-icon material-symbols-outlined">search</span>
+            <input class ="search-input" type="search" placeholder="Search">
+        </div>
+    
+    
+    </form>
+
+    <!--(Web Dev With Ron,2023)-->
+    <ul class="breadcrumb">    <!--This is the breadcrum navigation-->
+        <li><a href ="HomePage.html">Home</a></li>
+        <li><a href ="">About</a></li>
+        <li><a href ="">Contact</a></li>
+        
+    </ul>
+
+
+
+
+
+    
+    <div class="dishes"><!--This is where all the dishes are displayed-->
+        <div class="dish"><a href="FriedRice.html">
+            <img src="Images\Image (15).jpeg" alt ="Nigerian Fried Rice" width ="215" px height="150">
+            <p class="name">Nigerian Fried Rice</p>
+        </a>
+           
+        </div>
+            <div class="dish"><a href="Pancake.html">
+                <img src="Images\Image (16).jpeg" alt ="Pancake and Corned beef sauce" width ="215"  height ="150">
+                <p class="name">Pancake & Corned beef sauce</p>
+            </a>
+            </div>
+            
+            <div class="dish"><a href="Eggsauce.html">
+                <img src="Images\Image (17).jpeg" alt="Egg Sauce" width ="215" height="150" >
+                <p class="name">Nigerian Egg sauce</p>
+            </a>
+               
+            </div>
+
+            <div class="dish"><a href="Shawarma.html">
+                <img src="Images\Image.jpg" alt="Chicken Shawarma" width ="215" height="150" >
+                <p class="name">Chicken Shawarma</p>
+            </a>
+            </div>
+        </div>
+
+        
+</div>
+
+
+</div>
+<script type="text/javascript">
+    function search() {
+        let filter = document.querySelector('.search-input').value.toUpperCase(); // Corrected input retrieval
+        let items = document.querySelectorAll('.dish'); // Get all dish elements
+        
+        items.forEach(item => {
+            let nameElement = item.querySelector('.name p'); // Corrected name retrieval
+            if (nameElement) {
+                let value = nameElement.textContent.toUpperCase();
+                if (value.indexOf(filter) > -1) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+        });
+    }
+    
+    // Add event listener to the search input
+    document.querySelector('.search-input').addEventListener('input', search);
+    
+    </script>
+</body>
+</html>
+
+
+please make my search bar work,This is from youtube.
 
 GreatStack. (2022, September 2) How To Make Email Validation Using JavaScript | Valid & Invalid Email Check In JavaScript [YouTube video]. Retrieved from: https://youtu.be/ndNPg8-5jgI  [Accessed 18 March 2025].
 
