@@ -32,6 +32,9 @@ Report 21/03/2025(V1.7)
 1.Added header and main tags to all pages
 2.Made the homepage responsive
 
+Report 22/03/2025 (V1.8)
+1.Parially made all food pages responsive
+2About and contact page are responsive
 
 References for the code:
 
