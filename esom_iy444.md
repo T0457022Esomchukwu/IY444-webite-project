@@ -36,6 +36,9 @@ Report 22/03/2025 (V1.8)
 1.Parially made all food pages responsive
 2About and contact page are responsive
 
+Report 22/03/2025(V1.9)
+1.All pages are responsive
+
 References for the code:
 
 

@@ -313,29 +313,29 @@ max-width:450px;
     margin: 60px auto;
     text-align:center;
     background-color:#4caf50;
-    width:900px;
+    max-width:800px;
     height:auto;
-    border-radius: 50px; 
-    padding:20px;
+    border-radius:50px; 
+    padding:30px 50px 40px;
+    width:100%;
     
  }
 
 
 .page_image img{
-    margin:50px;
+    margin: 50px auto;
     border-radius: 20px;
-    max-width:750px ;
+    max-width:750px ;    
     height:auto;
+    width:100%;
 } 
-.page_image p{
-   margin-bottom: 100px;
-}
+
 
 
 
 
 /*This is for each dishes details */
-.details{margin:90px 100px;
+.details{margin:90px auto;
     border-radius: 20px;
     height:auto;
     padding:20px 30px 10px;
@@ -347,7 +347,8 @@ max-width:450px;
 
 /*This is specifically for ingredients in the fried rice webpage*/
 .ingredients{
-    margin:0px 100px 50px ;
+    
+    margin:auto;
     background-color:#4caf50;
     border-radius: 20px;
     height:auto;
@@ -363,60 +364,34 @@ max-width:450px;
 
 .details li{margin-bottom:12px;}
 
+
 .ingredients li{margin-bottom:20px;}
 
-.instructions li{margin-bottom:15px;}
 
-
-/*This is specifically for ingredients in the Egg sauce web page*/
-.ingredients_1{
-    margin:0px 100px 100px;
-    background-color:#4caf50;
-    border-radius: 20px;
-    height:auto;
-    padding:30px 30px;
-    max-width:690px;
-
+.instructions{
+    max-width: 670px;
+    margin: 100px auto;
 }
-
-
-.ingredients_1 li{margin-bottom:20px;}
-
-
-/*This is specifically for ingredients in the pancake and corned beef sauce web page */
-
-.ingredients_2{
-    margin:0px 100px;
-    background-color:#4caf50;
-    border-radius: 20px;
-    height:auto;
-    padding:30px 30px;
-    max-width:690px;
-}
-
-    
-
-
-.ingredients_2 li{margin-bottom:20px;}
-
 .instructions h1{
-    margin:50px 120px 10px;
     color:#4caf50
 
 }
 
 .instructions h2{
-    margin:40px 120px 10px;
+    margin-top: 40px;
     color:#4caf50;
+    
 }
 
 
 .instructions #hr_1{
+    
     width:250px;
     height:7px;
 }
 
 .instructions #hr_2{
+    
     width:160px;
     height:7px;
 }
@@ -427,16 +402,15 @@ max-width:450px;
     border-radius:10px;
     background-color: #4caf50;
     border:none;
-margin:0px 120px 10px;
-
 }
 
 
 
 /*These are for the accordions in the website*/
 /*<!--(GreatStack,2022)-->*/
-.accordion{ margin:50px 80px 100px;
-    max-width:850px;
+.accordion{ margin:50px 0px 100px;
+    max-width: 670px;
+    
     width:100%;
     
 }
@@ -500,8 +474,6 @@ label::before{
     border-radius: 30px;
     padding:10px;
     transition: transform 0.3s ease-in-out;
-    
-           
 }
 
 
@@ -512,24 +484,33 @@ label::before{
 
 
 /*This is for the videos in the website*/
+.video{
+    margin: 60px auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    max-width:700px;
+    
+}
 .video h1 { 
-    margin:10px 100px 0px;;
+    align-self: flex-start;
 color:#4caf50;
 
 }
 
-.video hr{ height:10px;
+.video hr{ 
+    align-self: flex-start;
+    height:10px;
     width:120px;
     border-radius:10px;
-    margin:0px 100px 0px;
+    margin-bottom:30px;
     background-color: #4caf50;
     border:none;}
 
 .video video{
-
     background:#4caf50;
     border-radius:30px;
-    margin:60px 100px 10px;
     width:80%;
     max-width:650px;
     max-height:400px;
@@ -543,13 +524,22 @@ color:#4caf50;
 }
 
 .Quiz{
-    margin:70px 90px 30px;
+    margin:70px auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    max-width:700px;
+    
 }
-.Quiz h1{margin:10px 10px;
-color:#4caf50;}
+.Quiz h1{
+    align-self: flex-start;
+color:#4caf50;
+}
 
-.Quiz p {margin:20px 10px;
+.Quiz p {
     color:#4caf50;
+    margin:10px;
+    align-self: flex-start;
 }
 .Quiz iframe{
     background-color: #4caf50;
@@ -557,16 +547,18 @@ color:#4caf50;}
     padding: 30px;
     max-width:690px;
     max-height:1000px;
-    width:180%;
+    width:100%;
 
 }
 
-.Quiz hr{ height:10px;
+.Quiz hr{ 
+    align-self: flex-start;
+    height:10px;
     width:120px;
     border-radius:10px;
     background-color: #4caf50;
     border:none;
-margin:0px 10px 10px;}
+}
 
 
 #email-error{
