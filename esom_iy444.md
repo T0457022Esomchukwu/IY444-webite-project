@@ -39,6 +39,9 @@ Report 22/03/2025 (V1.8)
 Report 22/03/2025(V1.9)
 1.All pages are responsive
 
+Report 24/03/2025 (V2.0)
+1.Added audio only content to each food page
+
 References for the code:
 
 
