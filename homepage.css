@@ -3,9 +3,12 @@
 *{margin:0px;
     padding:0px;
    box-sizing:border-box;
-   font-family: sans-serif;
+   
    color:white;
-   font-family:sans-serif;
+   font-family:  Calibri;
+   letter-spacing: 2.28px;
+   word-spacing: 3.04px;
+   p{font-size: 19px;}
    
    
    
@@ -30,16 +33,14 @@ margin-top:30px;
 body{ 
     
     width:100%;
-    min-height:100vh;
     background-image:linear-gradient(225deg,#FFFFFF, #D7E8D1, #A3C89B, #65A665);
     background-size:250% 250%;
 animation:color 15s ease-in-out infinite;
 }
-/*#FFFFFF, #D7E8D1, #A3C89B, #65A665*/
+
 
 @keyframes color{
-    0%{ background-position:0 50%;
-    }
+    0%{ background-position:0 50%;}
     50%{background-position: 100% 50%;}
     100%{background-position: 0 50%;}
 
@@ -56,10 +57,7 @@ animation:color 15s ease-in-out infinite;
     text-align:center;
     height:55px;
     border-radius:10px;
-    
-    
-    
-    
+ 
 }
                          
 .nav ul{
@@ -108,8 +106,7 @@ width:90%;
 
 
 
-/*This is for the serach tab*/
-
+/*This is for the serach bar*/
 
 /*(decode,2023)*/
 .search{
@@ -118,7 +115,7 @@ width:90%;
     display:flex;
     align-items:center;
     padding:5px;
-    border-radius:20px;
+    border-radius:30px;
     background:#4caf50  ;
     height:50px;
     transition: background 0.2s;
@@ -127,7 +124,7 @@ width:90%;
 .search:focus-within{
     box-shadow:0 0 4.5px lightgreen;
 }
-.search-input{ font-size:15px;
+.search-input{ font-size:19px;
     color: white;
     margin:14px;  
     padding:0px;
@@ -154,7 +151,7 @@ html{
 }
 
 /*This is the scroll wheel properties for other browsers aside from firefox*/
-html::-webkit-scrollbar{width:70px;
+html::-webkit-scrollbar{width:15px;
 }
 
 html::-webkit-scrollbar-thumb{background-color: white;}
@@ -172,14 +169,11 @@ html::-webkit-scrollbar-track{background-color:#4caf50;}
     max-width:900px;
     width:90%;
     
-    
-    
-    
 }
     
     
 .dish{
-    font-size:15px;
+    
     text-align:center;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
     padding:20px;
@@ -189,17 +183,18 @@ html::-webkit-scrollbar-track{background-color:#4caf50;}
     margin-bottom:40px;
     transition: transform 0.3s ease-in-out;
      
-     
-       
+      
     }
 
 .name{
     padding-top:20px;
-    
+    font-size:15px;
     }
 
     
-.dish a{text-decoration:none;}    
+.dish a{text-decoration:none;
+}    
+.dish p{width:215px;}
     
 .dish:hover{transform: scale(1.03);}
 .dishes img{width :215px;
@@ -210,7 +205,7 @@ html::-webkit-scrollbar-track{background-color:#4caf50;}
 
 
 
-/*About Page*/
+/*This is for the About page*/
 
 .about_header h1{
     margin:100px 50px 0px;
@@ -235,12 +230,28 @@ margin :40px 60px;
 border-radius: 100px;
 padding:40px;
 max-height:400px;
-max-width:650px}
+max-width:650px;}
 
 .about{display:flex;
     justify-content: center;
 flex-wrap: wrap;
-margin:10px 0px;
+
+}
+.about_contact{
+    background-color: #4caf50;
+    width:150px;
+    height:60px;
+    text-align:center;
+    padding:20px;
+    border-radius: 30px;
+    margin: auto;
+    
+}
+.about_contact a{
+    text-decoration: none;
+}
+.about_contact:hover{
+    background-color: #006400;
 }
 
 
@@ -250,15 +261,14 @@ margin:10px 0px;
 
 /*(GreatStack,2023)-*/
 .contact{
-    
     margin:120px 50px;
-
 }
 
 .contact_left{
     display:flex;
     flex-direction:column;  
 }
+
 .contact_left h1{ 
 font-size: 40px;
 margin:5px;
@@ -276,6 +286,7 @@ color:#4caf50;}
 }
 
 .contact_inputs ,button {margin-top:35px;}
+
 
 
 .contact_inputs{background-color: #4caf50;
@@ -299,13 +310,18 @@ max-width:450px;
     background-color: #4caf50;
      border:none;
     outline:none;
-    
     border-radius:35px;
     height:40px;
     width:100px;
     text-align:center;
 
 }
+
+/*(Greatstack,2022)*/
+#email-error{
+    color:red;
+    margin-left:10px;
+} 
 
 
 /*This is for the picture and name of a dish's webpage*/
@@ -334,7 +350,7 @@ max-width:450px;
 
 
 
-/*This is for each dishes details */
+/*This is for each dish's details */
 .details{margin:90px auto;
     border-radius: 20px;
     height:auto;
@@ -343,9 +359,10 @@ max-width:450px;
     max-width:300px;
     width:100%
     
-}   
+}  
 
-/*This is specifically for ingredients in the fried rice webpage*/
+
+/*This is for each dish's ingredients*/
 .ingredients{
     
     margin:auto;
@@ -360,17 +377,17 @@ max-width:450px;
 
 
 
-/*This is for each dishes instructions and images alongside the instructions*/
 
+/*This is to create space between the lines in the list*/
 .details li{margin-bottom:12px;}
-
-
 .ingredients li{margin-bottom:20px;}
 
 
+/*This is for the instructions page*/
 .instructions{
-    max-width: 670px;
+    max-width: 690px;
     margin: 100px auto;
+    
     
 }
 .instructions h1{
@@ -384,7 +401,13 @@ max-width:450px;
     
 }
 
-
+.instructions hr{
+    height:9px;
+    width:225px;
+    border-radius:10px;
+    background-color: #4caf50;
+    border:none;
+}
 .instructions #hr_1{
     
     width:250px;
@@ -393,55 +416,48 @@ max-width:450px;
 
 .instructions #hr_2{
     
-    width:160px;
+    width:130px;
     height:7px;
 }
 
-.instructions hr{
-    height:9px;
-    width:230px;
-    border-radius:10px;
-    background-color: #4caf50;
-    border:none;
-}
 
 
 
 /*These are for the accordions in the website*/
 /*<!--(GreatStack,2022)-->*/
-.accordion{ margin:50px 0px 100px;
+.accordion{ margin:50px auto 100px;
     width:100%;
     
 }
+
+/*This is for each line in the list*/
 .accordion li{
     
     list-style:none;
     width:100%;
-    max-width: 670px;
-    margin:20px;
+    max-width: 690px;
+    margin: 20px 0px;
     padding:45px 30px;
     border-radius:35px;
     background:#4caf50;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
-
-    
-
 }
+
 
 .accordion li label{
     display:flex;
     align-items:center;
     padding:10px;
-    font-size:18px;
-    font-weight:500;
+    font-size:19px;
     cursor:pointer;
     
 }
+
+/*This is to make the label have a positive sign before it is opened*/
 label::before{
     content:'+';
     margin-right:10px;
-    font-size:24px;
-    font-weight:600;
+    
 
 }
 .accordion input[type="radio"]{
@@ -463,6 +479,8 @@ label::before{
     max-height:500px;
     padding:10px 10px 20px;
 }
+
+/*This is to make the label of the accordion change to a negative sign when it is opened*/
 .accordion input[type="radio"]:checked +label::before{
     content:"-";
 }
@@ -476,7 +494,7 @@ label::before{
     transition: transform 0.3s ease-in-out;
 }
 
-
+/*This is to make the image increase in size when you hover it*/
 .content img:hover {
     transform: scale(1.1); 
 }
@@ -488,25 +506,23 @@ label::before{
     margin: 60px auto;
     display:flex;
     flex-direction: column;
-    align-items:center;
     width: 100%;
     max-width:700px;
     
 }
 .video h1 { 
-    align-self: flex-start;
 color:#4caf50;
-
 }
 
 .video hr{ 
-    align-self: flex-start;
+    
     height:10px;
     width:120px;
     border-radius:10px;
     margin-bottom:30px;
     background-color: #4caf50;
-    border:none;}
+    border:none;
+}
 
 .video video{
     background:#4caf50;
@@ -516,21 +532,19 @@ color:#4caf50;
     max-height:400px;
     padding:40px;
     border-radius:30px;
-    align-self: flex-start;
     transition: transform 0.3s ease-in-out;
 }
 
+/*This is to make the image increase in size when you hover it*/
 .video video:hover{
     transform: scale(1.1); 
 }
 
 
+/*This is for the audio player */
 
 .audio {
     margin:  auto;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
     width: 100%;
     max-width:700px;
     
@@ -540,60 +554,57 @@ color:#4caf50;
     padding:20px;
     border-radius: 40px;
     margin:20px 0px;
-    align-self: flex-start;
+    
 }
 
 .audio h1{
-    align-self: flex-start;
 color:#4caf50;
 }
 
 .audio p{
-    align-self: flex-start;
 color:#4caf50;
 
 }
 .audio hr{
-    align-self: flex-start;
+    
     height:10px;
     width:120px;
     border-radius:10px;
     margin-bottom:10px;
     background-color: #4caf50;
     border:none;
-
 }
+
+/*This is for the quiz on each dish's page*/
 
 .Quiz{
     margin:70px auto;
-    display:flex;
-    flex-direction: column;
-    align-items:center;
+   
     max-width:700px;
     
 }
 .Quiz h1{
-    align-self: flex-start;
+    
 color:#4caf50;
 }
 
 .Quiz p {
     color:#4caf50;
     margin:10px;
-    align-self: flex-start;
+    
 }
 .Quiz iframe{
     background-color: #4caf50;
     border-radius: 30px;
     padding: 30px;
     max-width:690px;
-    max-height:1000px;
+    max-height:700px;
     width:100%;
 
 }
 
 .Quiz hr{ 
-    align-self: flex-start;
+    
     height:10px;
     width:120px;
     border-radius:10px;
@@ -602,12 +613,7 @@ color:#4caf50;
 }
 
 
-#email-error{
-    color:red;
-    margin-left:10px;
 
-} 
-
-
-
-
+.contact button:hover{
+    background-color: #006400;
+}
