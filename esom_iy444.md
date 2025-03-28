@@ -44,6 +44,9 @@ Report 24/03/2025 (V2.0)
 
 Report 27/03/2025(V2.1)
 1.Made some few changes
+
+Report 28/03/2025(v2.2)
+1.Javascript for the current navigation tab and current time added
 References for the code:
 
 
@@ -191,7 +194,15 @@ please make my search bar work,This is from youtube.
 
 GreatStack. (2022, September 2) How To Make Email Validation Using JavaScript | Valid & Invalid Email Check In JavaScript [YouTube video]. Retrieved from: https://youtu.be/ndNPg8-5jgI  [Accessed 18 March 2025].
 
+Shields,T. (2011). Using Javascript to highlight current page in navbar. Retrieved from: https://stackoverflow.com/questions/6964503/using-javascript-to-highlight-current-page-in-navbar?newreg=8d64d8cb87184e7ebd56346c9d675b18 [Accessed 28 March 2025].
 
+
+The Wheelchair Guy. (2021,).  How to Add a JavaScript Time to your web page. [Type of medium]. Retrieved from: https://www.youtube.com/watch?v=tf4E9CUuMH0 [Accessed 28 March 2025].
+
+Google. (n.d). Nigerian Fried Rice. Retrieved from: https://docs.google.com/forms/d/1Nt01fK_yfjDI5k9eJqgBuWHsGzwuE794OilnaaaQXxA/edit [Accessed 18 March 2025].
+Google. (n.d). Nigerian Egg sauce. Retrieved from: https://docs.google.com/forms/d/16sG2mCNr28K3Qvg8OH_-2HhwpWwZTK-Abe1RzULn2AQ/edit  [Accessed 18 March 2025].
+Google. (n.d).Pancake and Corned beef sauce. Retrieved from: https://docs.google.com/forms/d/1aX2SuG4VKgMMBCbPMTQf4Gyc09VXCSo3nPjyNpTV6Hw/edit  [Accessed 18 March 2025].
+Google. (n.d).Chicken Shawarma. Retrieved from: https://docs.google.com/forms/d/1--ptWfpEo1Gmw1MepqJpaSA6nmfkRzaEwotiXqwotjo/edit  [Accessed 18 March 2025].
 
 
 

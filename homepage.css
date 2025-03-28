@@ -5,7 +5,7 @@
    box-sizing:border-box;
    
    color:white;
-   font-family:  Calibri;
+   font-family: Calibri;
    letter-spacing: 2.28px;
    word-spacing: 3.04px;
    p{font-size: 19px;}
@@ -17,8 +17,8 @@
 
 /*This is so that all the settings apply to every page div */
 .page{width:80%;
-margin:auto;
-margin-top:30px;
+margin: 30px auto;
+
 
 }
 
@@ -83,8 +83,9 @@ padding:11px;
 /*This is for the heading or title of the webpage */
 .header h1{
     color:#4caf50;
-   margin-top:100px;
+   margin-top:90px;
 text-align:center;
+font-size:35px
 
 
 } 
@@ -616,4 +617,25 @@ color:#4caf50;
 
 .contact button:hover{
     background-color: #006400;
+}
+
+
+/*(Shields,2011)*/
+nav a.current {    
+    
+    background-color: #006400;
+    border-radius:10px ;
+ 
+}
+
+/*(The Wheelchair Guy,2021)*/
+.time{
+    background-color:#4caf50;
+    font-size: 25px;
+    width:190px;
+    height: 45px;
+    padding:6px;
+    text-align: center;
+    border-radius: 15px;
+    margin:30px 0px 0px;
 }
