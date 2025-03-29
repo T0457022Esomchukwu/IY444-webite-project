@@ -56,6 +56,9 @@ References for the code:
 Report 29/03/2025 (V2.3)
 1.Test table has been added
 
+Report 29/03/2025 (V2.4)
+1.Back to the top button has been added
+
 Bro Code (2023, September 21). How to create a CSS navigation bar in 6 minutes! 🧭
 . [YouTube video]. Retrieved from: [https://youtu.be/f3uCSh6LIY0](https://youtu.be/f3uCSh6LIY0)  [Accessed 16 February 2025].
 
@@ -193,9 +196,15 @@ JavaScript [YouTube video]. Retrieved from: [https://youtu.be/ndNPg8-5jgI](https
 
 Shields,T. (2011). Using Javascript to highlight current page in navbar. Retrieved from: [https://stackoverflow.com/questions/6964503/using-javascript-to-highlight-current-page-in-navbar?newreg=8d64d8cb87184e7ebd56346c9d675b18](https://stackoverflow.com/questions/6964503/using-javascript-to-highlight-current-page-in-navbar?newreg=8d64d8cb87184e7ebd56346c9d675b18) [Accessed 28 March 2025].
 
-The Wheelchair Guy. (2021,).  How to Add a JavaScript Time to your web page. [Type of medium]. Retrieved from: [https://www.youtube.com/watch?v=tf4E9CUuMH0](https://www.youtube.com/watch?v=tf4E9CUuMH0) [Accessed 28 March 2025].
+The Wheelchair Guy. (2021, April 2021).  How to Add a JavaScript Time to your web page. [YouTube video]. Retrieved from: https://youtu.be/tf4E9CUuMH0?list=LL  [Accessed 28 March 2025].
 
 Google. (n.d). Nigerian Fried Rice. Retrieved from: [https://docs.google.com/forms/d/1Nt01fK_yfjDI5k9eJqgBuWHsGzwuE794OilnaaaQXxA/edit](https://docs.google.com/forms/d/1Nt01fK_yfjDI5k9eJqgBuWHsGzwuE794OilnaaaQXxA/edit) [Accessed 18 March 2025].
 Google. (n.d). Nigerian Egg sauce. Retrieved from: [https://docs.google.com/forms/d/16sG2mCNr28K3Qvg8OH_-2HhwpWwZTK-Abe1RzULn2AQ/edit](https://docs.google.com/forms/d/16sG2mCNr28K3Qvg8OH_-2HhwpWwZTK-Abe1RzULn2AQ/edit)  [Accessed 18 March 2025].
 Google. (n.d).Pancake and Corned beef sauce. Retrieved from: [https://docs.google.com/forms/d/1aX2SuG4VKgMMBCbPMTQf4Gyc09VXCSo3nPjyNpTV6Hw/edit](https://docs.google.com/forms/d/1aX2SuG4VKgMMBCbPMTQf4Gyc09VXCSo3nPjyNpTV6Hw/edit)  [Accessed 18 March 2025].
 Google. (n.d).Chicken Shawarma. Retrieved from: [https://docs.google.com/forms/d/1--ptWfpEo1Gmw1MepqJpaSA6nmfkRzaEwotiXqwotjo/edit](https://docs.google.com/forms/d/1--ptWfpEo1Gmw1MepqJpaSA6nmfkRzaEwotiXqwotjo/edit)  [Accessed 18 March 2025].
+
+LearnDesign. (2021 November 9). GB Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS Smooth Scroll. [YouTube video]. Retrieved from: https://youtu.be/3Jbb3sQVVq0  [Accessed 29 March 2025].
+
+Google. (n.d). Nigerian Fried Rice. Retrieved from: [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:arrow_upward:FILL@0;wght@400;GRAD@0;opsz@24&amp;icon.size=24&amp;icon.color=%235f6368&amp;icon.platform=web&icon.size=24&icon.color=%235f6368&icon.query=arrow+up](https://docs.google.com/forms/d/1Nt01fK_yfjDI5k9eJqgBuWHsGzwuE794OilnaaaQXxA/edit) [Accessed 29 March 2025].
+
+Google. (n.d). Arrow up [Icon]. Retrieved from: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:arrow_upward:FILL@0;wght@400;GRAD@0;opsz@24&amp;icon.size=24&amp;icon.color=%235f6368&amp;icon.platform=web&icon.size=24&icon.color=%235f6368&icon.query=arrow+up [Accessed 29 March 2025].

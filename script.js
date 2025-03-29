@@ -42,6 +42,10 @@ function runTime(){
 }
 setInterval(runTime,0);
 
+function scrollToTop(){
+    window.scrollTo(0,0);
+}
+
 
     //(ChatGpt,2025)
 function search() {
