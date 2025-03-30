@@ -246,6 +246,7 @@ flex-wrap: wrap;
     padding:20px;
     border-radius: 30px;
     margin: auto;
+    margin-bottom: 30px;
     
 }
 .about_contact a{
@@ -617,6 +618,7 @@ color:#4caf50;
 
 .contact button:hover{
     background-color: #006400;
+    
 }
 
 
@@ -659,4 +661,39 @@ nav a.current {
 .scrollTop:hover{
     background-color:#006400;
     transform: scale(1.05);
+}
+
+.footer{
+    background-color:#4caf50;
+    height :400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+
+}
+.footer h1{
+    text-align: center;
+    padding:20px;
+}
+.nav_footer ul{
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+    list-style-type: none;
+    
+}
+.nav_footer a{
+    text-decoration: none;    
+}
+.nav_footer a:hover{
+    font-weight: bold;
+    text-decoration:underline;
+}
+.footer p{
+    text-align: center;
+    padding:20px;
+    font-size:15px;
+    
 }

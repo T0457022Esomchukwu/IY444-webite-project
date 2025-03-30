@@ -59,6 +59,9 @@ Report 29/03/2025 (V2.3)
 Report 29/03/2025 (V2.4)
 1.Back to the top button has been added
 
+Report 30/03/2025 (V2.5)
+1.Footer added to each page
+
 Bro Code (2023, September 21). How to create a CSS navigation bar in 6 minutes! 🧭
 . [YouTube video]. Retrieved from: [https://youtu.be/f3uCSh6LIY0](https://youtu.be/f3uCSh6LIY0)  [Accessed 16 February 2025].
 
