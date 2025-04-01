@@ -246,7 +246,11 @@ flex-wrap: wrap;
     padding:20px;
     border-radius: 30px;
     margin: auto;
+<<<<<<< HEAD
     margin-bottom: 200px;
+=======
+    margin-bottom: 30px;
+>>>>>>> d7f5176c8dd6b18ab11cf73592cca5da6ea66b01
     
 }
 .about_contact a{
@@ -620,7 +624,14 @@ color:#4caf50;
 
 
 
+<<<<<<< HEAD
 
+=======
+.contact button:hover{
+    background-color: #006400;
+    
+}
+>>>>>>> d7f5176c8dd6b18ab11cf73592cca5da6ea66b01
 
 
 /*(Shields,2011)*/
@@ -667,17 +678,25 @@ nav a.current {
     transform: scale(1.05);
 }
 
+<<<<<<< HEAD
 
 /*This is for the footer of the website*/
 .footer{
     border-radius: 20px;
+=======
+.footer{
+>>>>>>> d7f5176c8dd6b18ab11cf73592cca5da6ea66b01
     background-color:#4caf50;
     height :400px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     gap:35px;
+=======
+    gap:50px;
+>>>>>>> d7f5176c8dd6b18ab11cf73592cca5da6ea66b01
 
 }
 .footer h1{
@@ -689,7 +708,10 @@ nav a.current {
     flex-direction:row;
     gap:40px;
     list-style-type: none;
+<<<<<<< HEAD
     padding: 20px;
+=======
+>>>>>>> d7f5176c8dd6b18ab11cf73592cca5da6ea66b01
     
 }
 .nav_footer a{
