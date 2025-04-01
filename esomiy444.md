@@ -62,6 +62,10 @@ Report 29/03/2025 (V2.4)
 Report 30/03/2025 (V2.5)
 1.Footer added to each page
 
+Report 01/04/2025 (V2.7)
+1.Has to edit some stuff vscode messed up some of my code.
+
+
 Bro Code (2023, September 21). How to create a CSS navigation bar in 6 minutes! 🧭
 . [YouTube video]. Retrieved from: [https://youtu.be/f3uCSh6LIY0](https://youtu.be/f3uCSh6LIY0)  [Accessed 16 February 2025].
 
