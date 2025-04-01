@@ -1,7 +1,7 @@
 
 Table
 Test table :
-Test table is inTesttable.txt
+Test table is in Testtable.txt
 
 
 Report 18/02/2025 (V1.2)
@@ -191,7 +191,7 @@ document.querySelector('.search-input').addEventListener('input', search);
 
 </script>
 
-please make my search bar work,This is from youtube.
+please make my search bar work.
 
 GreatStack. (2022, September 2) How To Make Email
 Validation Using JavaScript | Valid & Invalid Email Check In
@@ -208,6 +208,6 @@ Google. (n.d).Chicken Shawarma. Retrieved from: [https://docs.google.com/forms/d
 
 LearnDesign. (2021 November 9). GB Scroll To Top Button (Back To Top) Using Simple JAVASCRIPT | Click to Scroll Top | CSS Smooth Scroll. [YouTube video]. Retrieved from: https://youtu.be/3Jbb3sQVVq0  [Accessed 29 March 2025].
 
-Google. (n.d). Nigerian Fried Rice. Retrieved from: [https://fonts.google.com/icons?selected=Material+Symbols+Outlined:arrow_upward:FILL@0;wght@400;GRAD@0;opsz@24&amp;icon.size=24&amp;icon.color=%235f6368&amp;icon.platform=web&icon.size=24&icon.color=%235f6368&icon.query=arrow+up](https://docs.google.com/forms/d/1Nt01fK_yfjDI5k9eJqgBuWHsGzwuE794OilnaaaQXxA/edit) [Accessed 29 March 2025].
 
 Google. (n.d). Arrow up [Icon]. Retrieved from: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:arrow_upward:FILL@0;wght@400;GRAD@0;opsz@24&amp;icon.size=24&amp;icon.color=%235f6368&amp;icon.platform=web&icon.size=24&icon.color=%235f6368&icon.query=arrow+up [Accessed 29 March 2025].
+

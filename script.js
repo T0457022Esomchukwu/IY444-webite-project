@@ -42,6 +42,7 @@ function runTime(){
 }
 setInterval(runTime,0);
 
+//(LearnDesign,2021)
 function scrollToTop(){
     window.scrollTo(0,0);
 }
