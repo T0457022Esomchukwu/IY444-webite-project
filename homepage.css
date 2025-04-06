@@ -50,7 +50,7 @@ animation:color 15s ease-in-out infinite;
 
 
 /*This is for the navigation bar*/
-/*(Bro Code,2023)*/
+
 .nav{
     background-color:#4caf50;
     padding:10px;
@@ -59,12 +59,16 @@ animation:color 15s ease-in-out infinite;
     border-radius:10px;
  
 }
-                         
+   /*(Bro Code,2023)*/                      
 .nav ul{
     list-style-type:none;
     display:flex;
     justify-content: center;
     padding-top:7px;
+    
+}
+.nav li{
+    padding:0px 2px 0px;
 }
 
 
@@ -230,7 +234,8 @@ margin:100px 65px;
 margin :40px 60px;
 border-radius: 100px;
 padding:40px;
-max-height:400px;
+text-align: center;
+max-height:fit-content;
 max-width:650px;}
 
 .about{display:flex;
@@ -325,7 +330,7 @@ max-width:450px;
     
 }
 
-/*(Greatstack,2022)*/
+/*(GreatStack,2022)*/
 #email-error{
     color:red;
     margin-left:10px;
